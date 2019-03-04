@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_guest_login_dialog_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="温馨提示"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.1"
+            android:padding="10dp"
+            android:text="\u3000\u3000敬爱的书包用户，你即将登录游客模式，在此模式下阅读记录（包括付费购买过的）以及充值记录和账户余额在恢复出厂设置后将会清空！对此损失我们将不会承担任何责任，为了保障你的虚拟财产，请你及时登录电子书包账号。"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/text_gray" />
+
+        <TextView
+            android:id="@+id/tv_guest_phone_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="使用电子书包账号登录"
+            android:textColor="#0575f6"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/text_gray" />
+
+        <TextView
+            android:id="@+id/tv_guest_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="继续游客登录模式"
+            android:textColor="#0575f6"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</FrameLayout>

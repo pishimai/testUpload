@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\picker_entry.xml",
+        "source": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\bundles\\debug\\res\\layout\\picker_entry.xml"
+    },
+    {
+        "merged": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\outline_entry.xml",
+        "source": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\bundles\\debug\\res\\layout\\outline_entry.xml"
+    },
+    {
+        "merged": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\buttons.xml",
+        "source": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\bundles\\debug\\res\\layout\\buttons.xml"
+    },
+    {
+        "merged": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\textentry.xml",
+        "source": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\bundles\\debug\\res\\layout\\textentry.xml"
+    },
+    {
+        "merged": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\print_dialog.xml",
+        "source": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\bundles\\debug\\res\\layout\\print_dialog.xml"
+    }
+]

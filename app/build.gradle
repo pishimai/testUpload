@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    defaultConfig {
+        applicationId "com.mvw.medicalvisualteaching"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.1'
+    }
+}
+apply plugin: 'org.greenrobot.greendao'
+greendao {
+    schemaVersion 1//schema版本号
+    daoPackage 'com.mvw.medicalvisualteaching.db.dao'
+    targetGenDir 'src/main/java'
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile deps.appcompat_v7
+    compile deps.support_v4
+    compile deps.xwalk_core_library
+    compile deps.logger
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'org.greenrobot:greendao:3.2.0'
+    compile project(':filedownloader')
+    compile project(':netlibrary')
+    compile project(':pdfreader')
+    compile project(':vitamio')
+    compile files('libs/alipaySdk-20161009.jar')
+}

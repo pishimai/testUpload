@@ -1,0 +1,9 @@
+<resources>
+    <!-- pdf -->
+    <dimen name="xml_pdf_buttons_top_width">42dp</dimen>
+    <dimen name="xml_pdf_buttons_bottom_width">42dp</dimen>
+    <dimen name="xml_pdf_buttons_seekbar_width">25dp</dimen>
+    <dimen name="xml_pdf_buttons_top_button_width">47dp</dimen>
+    <dimen name="xml_pdf_buttons_top_backforward_width">80dp</dimen>
+    <dimen name="xml_pdf_buttons_top_backforward_margin">2dp</dimen>
+</resources>

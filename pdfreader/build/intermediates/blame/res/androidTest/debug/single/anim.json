@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\push_right_out.xml",
+        "source": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\bundles\\debug\\res\\anim\\push_right_out.xml"
+    },
+    {
+        "merged": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\info.xml",
+        "source": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\bundles\\debug\\res\\anim\\info.xml"
+    },
+    {
+        "merged": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\push_right_in.xml",
+        "source": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\bundles\\debug\\res\\anim\\push_right_in.xml"
+    }
+]

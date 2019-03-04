@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\button.xml",
+        "source": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\bundles\\debug\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\page_num.xml",
+        "source": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\bundles\\debug\\res\\drawable\\page_num.xml"
+    },
+    {
+        "merged": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\darkdenim3.png",
+        "source": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\bundles\\debug\\res\\drawable\\darkdenim3.png"
+    },
+    {
+        "merged": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\tiled_background.xml",
+        "source": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\bundles\\debug\\res\\drawable\\tiled_background.xml"
+    },
+    {
+        "merged": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\seekbar_style.xml",
+        "source": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\bundles\\debug\\res\\drawable\\seekbar_style.xml"
+    },
+    {
+        "merged": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\busy.xml",
+        "source": "F:\\studioworkspace\\MedicalVisualTeaching\\pdfreader\\build\\intermediates\\bundles\\debug\\res\\drawable\\busy.xml"
+    }
+]

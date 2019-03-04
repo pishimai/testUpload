@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <LinearLayout
+    android:id="@+id/ll_main_foot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+    <RadioGroup
+      android:id="@+id/rg_main_foot"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="5dp"
+      android:paddingBottom="5dp"
+      android:background="#ffffff"
+      android:orientation="horizontal">
+
+      <RadioButton
+        android:id="@+id/rb_main_foot_bookcase"
+        style="@style/rb_main_foot"
+        android:checked="true"
+        android:drawableTop="@drawable/selector_main_foot_bookcase"
+        android:text="@string/main_foot_title_bookcase" />
+
+      <RadioButton
+        android:id="@+id/rb_main_foot_bookcity"
+        style="@style/rb_main_foot"
+        android:drawableTop="@drawable/selector_main_foot_bookcity"
+        android:text="@string/main_foot_title_bookcity" />
+
+      <RadioButton
+        android:id="@+id/rb_main_foot_database"
+        style="@style/rb_main_foot"
+        android:drawableTop="@drawable/selector_main_foot_database"
+        android:text="@string/main_foot_title_database" />
+
+      <RadioButton
+        android:id="@+id/rb_main_foot_exam"
+        style="@style/rb_main_foot"
+        android:drawableTop="@drawable/selector_main_foot_exam"
+        android:text="@string/main_foot_title_exam" />
+
+      <RadioButton
+        android:id="@+id/rb_main_foot_operation"
+        style="@style/rb_main_foot"
+        android:drawableTop="@drawable/selector_main_foot_course"
+        android:text="@string/main_foot_title_operation" />
+    </RadioGroup>
+  </LinearLayout>
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/ll_main_foot">
+    <com.mvw.medicalvisualteaching.view.HomeViewPager
+      android:id="@+id/vp_home"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:background="@mipmap/icon_main_line" />
+  </RelativeLayout>
+
+
+</RelativeLayout>

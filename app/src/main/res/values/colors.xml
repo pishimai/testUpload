@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_color">#F0F0F0</color>
+    <color name="text_orange">#d7372d</color>
+    <color name="red">#ffff0000</color>
+    <color name="gray">#ff9f9f9f</color>
+    <color name="text_gray">#999999</color>
+    <color name="update_line">#D4D4D4</color>
+    <color name="register_verification_code">#828282</color>
+    <color name="voice_time_gray">#5a5a5a</color>
+    <color name="voice_blue">#16a5da</color>
+    <color name="pure_black">#ff000000</color>
+
+    <color name="umeng_white">#ffffff</color>
+    <color name="umeng_blue">#0086DC</color>
+    <color name="umeng_black">#000000</color>
+    <color name="umeng_background">#D4E0E5</color>
+    <color name="umeng_text_color">#575A5C</color>
+    <color name="umeng_divide">#C3C6C9</color>
+
+</resources>
